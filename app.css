@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "Calibri";
+  src: url("fonts/Calibri.ttf") format("ttf"); }
+@font-face {
+  font-family: "Khand-Regular";
+  src: url("fonts/Khand-Regular.ttf") format("ttf"); }
+@font-face {
+  font-family: "NeoSansPro-Black";
+  src: url("fonts/NeoSansPro-Black.otf") format("otf"); }
+@font-face {
+  font-family: "NeoSansPro-Bold";
+  src: url("fonts/NeoSansPro-Bold.otf") format("otf"); }
+@font-face {
+  font-family: "NeoSansPro-Medium";
+  src: url("fonts/NeoSansPro-Medium.otf") format("otf"); }
+* {
+  padding: 0;
+  margin: 0; }
+
+body {
+  background: url(assets/pictures/cover.jpg) no-repeat center center fixed;
+  background-size: cover; }
+
+img {
+  width: 500px; }
+
+/*# sourceMappingURL=app.css.map */
