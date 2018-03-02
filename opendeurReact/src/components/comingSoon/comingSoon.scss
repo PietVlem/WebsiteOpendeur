@@ -1,0 +1,27 @@
+.backGround{
+    background: url('cover.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center{
+    width: 700px;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-family: "NeoSansPro-Bold"
+}
+
+@media only screen and (max-width: 500px) {
+    .center{
+        width: 80%;
+    }
+}
+
+

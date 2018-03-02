@@ -1,0 +1,27 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  height: 100vh;
+}
+
+#root{
+  height: 100%;
+}
+
+@font-face {
+  font-family: 'NeoSansPro-Bold';
+  src: local('NeoSansPro-Bold'), url(./fonts/NeoSansPro-Bold.otf) format('otf');
+}
+
+@font-face {
+  font-family: 'NeoSansPro-Medium';
+  src: local('NeoSansPro-Medium'), url(./fonts/NeoSansPro-Medium.otf) format('otf');
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
