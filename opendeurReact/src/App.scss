@@ -11,14 +11,8 @@ body{
   height: 100%;
 }
 
-@font-face {
-  font-family: 'NeoSansPro-Bold';
-  src: local('NeoSansPro-Bold'), url(./fonts/NeoSansPro-Bold.otf) format('otf');
-}
-
-@font-face {
-  font-family: 'NeoSansPro-Medium';
-  src: local('NeoSansPro-Medium'), url(./fonts/NeoSansPro-Medium.otf) format('otf');
+#root>div{
+  height: 100%;
 }
 
 @keyframes App-logo-spin {
