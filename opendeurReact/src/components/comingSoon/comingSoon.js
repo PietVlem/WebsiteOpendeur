@@ -7,7 +7,7 @@ import NeoSansProBold from '../../fonts/NeoSansPro-Bold.otf';
 import './comingSoon.scss';
 
 // images
-import banner from './banner.png';
+import banner from './banner.svg';
 
 const fonts = {
   main: {
