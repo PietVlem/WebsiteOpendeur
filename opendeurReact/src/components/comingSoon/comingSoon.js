@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import ReactFontFace from 'react-font-face'
+import ReactFontFace from 'react-font-face';
 
 //import style
 import NeoSansProBold from '../../fonts/NeoSansPro-Bold.otf';
-import NeoSansProMed from '../../fonts/NeoSansPro-Medium.otf';
+//import NeoSansProMed from '../../fonts/NeoSansPro-Medium.otf';
 import './comingSoon.scss';
 
 // images
