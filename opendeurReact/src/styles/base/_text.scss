@@ -1,0 +1,44 @@
+h1{
+    font-size: 30pt;
+    font-family: "Neo Sans Pro", "source sans pro";
+    padding-bottom: 10px; 
+    text-align: center;
+    color: $Blue;
+}
+
+h2{
+    font-family: "Neo Sans Pro", "source sans pro";
+    font-size: 22pt;
+    color: $Green;
+    padding-bottom: 20px; 
+}
+
+h3{
+    font-family: "Neo Sans Pro", "source sans pro";
+    font-size: 14pt;
+    margin-bottom: 5px;
+}
+
+p{
+    font-family: "Calibri";
+    font-size: 14pt;
+    line-height: 1.4;
+}
+
+a{
+    text-decoration: none;
+}
+
+.yellowHighlighted{
+    color: $Magenta;
+    font-weight: bold;
+}
+
+.h1Line{
+    display: block;
+    margin: auto;
+    height: 10px;
+    width: 100px;
+    background-color: $Blue;
+    margin-bottom: 40px; 
+}

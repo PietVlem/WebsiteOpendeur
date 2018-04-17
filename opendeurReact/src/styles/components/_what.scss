@@ -1,0 +1,63 @@
+.what{
+    display: block;
+    margin: auto;
+    padding: 80px 0px 60px 0px;
+    max-width: 1100px;
+    h1{
+        color: $Blue;
+    }
+    p{
+        line-height: 2;
+        box-sizing: border-box;
+        margin: 0px 1%;
+    }
+}
+.whatText{
+    text-align: center
+}
+
+.animatedText{
+    height: 300px;
+    >*{
+        float: left;
+    }
+    >p{
+        font-size: 60px;
+        margin: 0px;
+        padding: 0px;
+        line-height: normal;
+        margin-right: 20px;
+        font-size: 30pt;
+        font-family: "Neo Sans Pro", "source sans pro";
+        color: $Blue;
+    }
+    >div{
+        span{
+            font-size: 60px;
+            text-align: center;
+            font-size: 30pt;
+            font-family: "Neo Sans Pro", "source sans pro";
+            color: $Blue;
+        }
+    }
+}
+
+@media screen and (max-width: 1060px){
+    .what{
+        padding: 20px 0px;
+        width: 80%;
+        h1{
+            color: $Blue;
+        }
+    }
+    .whatText{
+        column-count: 1;
+    }
+   
+}
+
+@media screen and (max-width: 600px){
+    .whatText{
+        text-align: left;
+    }
+}

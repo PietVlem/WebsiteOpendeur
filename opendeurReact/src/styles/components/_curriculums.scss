@@ -1,0 +1,114 @@
+.curriculumBackground{
+    margin: 40px 0px 100px 0px;
+    padding: 80px 0px;
+    background-color: $Yellow;
+    //background: linear-gradient(to bottom right,$YellowDark, $Yellow);
+}
+.curriculumContent{
+    display: table;
+    margin: auto;
+    max-width: 1100px;
+    h1{
+        color: white;
+    }
+    .h1Line{
+        background-color: white;
+    }
+    h2{
+        color: white;
+    }
+}
+
+.curriculumOverview{
+    display: inline-block;
+    .curriculumChoice{
+        width: 1100px;
+        display: table;
+    }
+}
+
+.curriculumExplaination{
+    box-sizing: border-box;
+    width: 21%;
+    margin: 0px 2%;
+    float: left;
+    display: table;
+    img{
+        width: 100%;
+    }
+    .info{
+        box-sizing: border-box;
+        padding: 10px;
+        text-align: center;
+        height: 280px;
+    }
+    .infoLink{
+        display: block;
+        box-sizing: border-box;
+        border: 1px solid white;
+        width: 100%;
+        padding: 10px 0px;
+        color: white;
+        text-transform: uppercase;
+        font-size: 11pt;
+        text-align: center;
+        font-weight: bold;
+    }
+    .infoLink:hover{
+        background-color: white;
+        color: $Yellow;
+    }
+}
+.OpenDLastY{
+    iframe{
+        display: table;
+        margin: auto;
+        width: 800px;
+        height: 500px;
+        margin-bottom: 100px;
+    }
+}
+
+
+@media screen and (max-width: 1100px){
+    .curriculumBackground{
+        margin: 20px 0px 40px 0px;
+        padding: 40px 0px;
+    }
+    .curriculumOverview{
+        .curriculumChoice{
+            width: 80%;
+            margin: auto;
+        }
+    }
+    .curriculumExplaination{
+        width: 46%;
+        float: left;
+        display: table;
+        .info{
+            height: 180px;
+        }
+        .infoLink{
+            margin-bottom: 80px;
+        }
+    }
+    .OpenDLastY{
+        iframe{
+            width: 80%;
+            height: 350px;
+            margin-bottom: 40px;
+        }
+    }
+}
+
+
+@media screen and (max-width: 815px){
+    .curriculumExplaination{
+        width: 98%;
+        float: left;
+        display: table;
+        .info{
+            height: 180px;
+        }
+    }
+}

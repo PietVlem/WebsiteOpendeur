@@ -1,21 +1,66 @@
-*{
-  padding: 0;
-  margin: 0;
-}
+/* Base */
+@import "./styles/base/reset";
+@import "./styles/base/colors";
+@import "./styles/base/text";
 
-body{
-  height: 100vh;
-}
+/* Components */
+@import "./styles/components/header";
+@import "./styles/components/container";
+@import "./styles/components/what";
+@import "./styles/components/curriculums";
+@import "./styles/components/where";
+@import "./styles/components/didYouKnow";
+@import "./styles/components/footer";
 
-#root{
-  height: 100%;
-}
+/*
+7-1 Sass Structure
 
-#root>div{
-  height: 100%;
-}
+sass/
+|
+|– base/
+|   |– _reset.scss       # Reset/normalize
+|   |– _typography.scss  # Typography rules
+|   ...                  # Etc…
+|
+|– components/
+|   |– _buttons.scss     # Buttons
+|   |– _carousel.scss    # Carousel
+|   |– _cover.scss       # Cover
+|   |– _dropdown.scss    # Dropdown
+|   ...                  # Etc…
+|
+|– layout/
+|   |– _navigation.scss  # Navigation
+|   |– _grid.scss        # Grid system
+|   |– _header.scss      # Header
+|   |– _footer.scss      # Footer
+|   |– _sidebar.scss     # Sidebar
+|   |– _forms.scss       # Forms
+|   ...                  # Etc…
+|
+|– pages/
+|   |– _home.scss        # Home specific styles
+|   |– _contact.scss     # Contact specific styles
+|   ...                  # Etc…
+|
+|– themes/
+|   |– _theme.scss       # Default theme
+|   |– _admin.scss       # Admin theme
+|   ...                  # Etc…
+|
+|– utils/
+|   |– _variables.scss   # Sass Variables
+|   |– _functions.scss   # Sass Functions
+|   |– _mixins.scss      # Sass Mixins
+|   |– _helpers.scss     # Class & placeholders helpers
+|
+|– vendors/
+|   |– _bootstrap.scss   # Bootstrap
+|   |– _jquery-ui.scss   # jQuery UI
+|   ...                  # Etc…
+|
+|
+`– main.scss             # Main Sass file
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
+  */
+

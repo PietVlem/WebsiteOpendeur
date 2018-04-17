@@ -1,14 +1,20 @@
 import React, { Component } from 'react';
+import './fonts/globalFonts';
 import './App.scss';
 
-//import components
-import ComingSoon from './components/comingSoon/comingSoon.js';
-
+// Components
+import Header from './components/Header';
+import Container from './components/Container';
+import Footer from './components/footer';
 
 class App extends Component {
   render() {
     return (
-        <ComingSoon />
+      <div>
+        <Header />
+        <Container />
+        <Footer />
+      </div>
     );
   }
 }

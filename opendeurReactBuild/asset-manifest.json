@@ -1,8 +1,15 @@
 {
-  "main.css": "static/css/main.42597700.css",
-  "main.css.map": "static/css/main.42597700.css.map",
-  "main.js": "static/js/main.ff4b9cd5.js",
-  "main.js.map": "static/js/main.ff4b9cd5.js.map",
+  "main.css": "static/css/main.20e2ca94.css",
+  "main.css.map": "static/css/main.20e2ca94.css.map",
+  "main.js": "static/js/main.00039a83.js",
+  "main.js.map": "static/js/main.00039a83.js.map",
+  "static/media/AVD.jpg": "static/media/AVD.81bc4d03.jpg",
+  "static/media/CMO.jpg": "static/media/CMO.df723a3a.jpg",
+  "static/media/Calibri.ttf": "static/media/Calibri.f3afc07f.ttf",
+  "static/media/GMB.jpg": "static/media/GMB.ad71a73c.jpg",
+  "static/media/NMD.jpg": "static/media/NMD.a8465a04.jpg",
   "static/media/NeoSansPro-Bold.otf": "static/media/NeoSansPro-Bold.3233cee2.otf",
-  "static/media/banner.svg": "static/media/banner.29fa544f.svg"
+  "static/media/arrow_up.svg": "static/media/arrow_up.578525b6.svg",
+  "static/media/logo.svg": "static/media/logo.3b5a9e57.svg",
+  "static/media/pin.svg": "static/media/pin.eb13ee63.svg"
 }

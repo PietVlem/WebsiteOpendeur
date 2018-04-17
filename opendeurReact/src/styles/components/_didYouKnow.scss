@@ -1,0 +1,104 @@
+
+$colors: $Yellow, $Magenta, $Green;
+$repeat: 15;
+
+@for $i from 1 through $repeat {
+    .bodyQuestions>div:nth-child(#{length($colors)}n+#{$i}) {
+        $rcolor: nth($colors, random(length($colors)));
+        background-color: rgba($rcolor,1);
+        //box-shadow: 4px 4px rgba($rcolor,0.8);
+    }
+}
+
+  
+
+.DidYouKnowBackGround{
+    margin: 80px 0px 100px 0px;
+    padding: 80px 0px;
+    background-color: $Blue;
+    .DidYouKnowContent{
+        margin: auto;
+        width: 1100px;
+        h1{
+            color: white;
+        }
+        .h1Line{
+            background-color: white;
+        }
+    }
+}
+
+.question{
+    color: white;
+}
+
+.bodyQuestions{
+    width: 1100px;
+    display: inline-block;
+    div{
+        box-sizing: border-box;
+        padding: 20px;
+        width: 31%;
+        height: 341px;
+        margin: 1.1676% 1.1676%;
+        float: left;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        text-align: center;
+        .h3{
+            display: block;
+            font-family: "Neo Sans Pro";
+            font-size: 14pt;
+            color: white;
+        }
+        .explain{
+            padding: 0px;
+            a{
+                text-decoration: none;
+                text-decoration: underline;
+                color: black;
+                
+            }
+        }
+    }
+}
+
+
+.whiteLink{
+    color: white;
+    text-decoration: underline;
+}
+
+.iconWhite{
+    font-size: 20pt;
+    color: white;
+    margin: 10px 0px 20px 0px;
+}
+
+.iconBlack{
+    font-size: 20pt;
+    color: black;
+    margin: 10px 0px 20px 0px;
+}
+
+@media screen and (max-width: 1060px){
+    .DidYouKnowBackGround{
+        width: 100%;
+        margin: 40px 0px 20px 0px;
+        padding: 40px 0px;
+        .DidYouKnowContent{
+            width: 80%;
+        }
+    }
+    .bodyQuestions{
+        width: 100%;
+        display: inline-block;
+        div{
+            width: 98%;
+            margin-bottom: 20px;
+        }
+    }
+    
+    
+}
