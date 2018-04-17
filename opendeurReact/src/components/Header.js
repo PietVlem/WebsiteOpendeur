@@ -41,7 +41,7 @@ class Header extends Component {
             </div>
           </div>
         </div>
-        <a href="#head" className="arrowUp"><img src={arrow} alt="pijltje omhoog" /></a>
+        {/*<a href="#head" className="arrowUp"><img src={arrow} alt="pijltje omhoog" /></a>*/}
       </header>
     );
   }

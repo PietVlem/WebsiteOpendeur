@@ -42,3 +42,12 @@ a{
     background-color: $Blue;
     margin-bottom: 40px; 
 }
+
+@media screen and (max-width: 600px){
+    h1{
+        font-size: 23pt;
+    }
+    h2{
+        font-size: 18pt;
+    }
+}
